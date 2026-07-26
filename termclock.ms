@@ -19,5 +19,6 @@ function Main(args: String*, argCount: Int32): Int32; begin
 		Thread::Sleep(1000 - time.GetMillisecond());
 	end;
 
+	mc.Destroy();
 	return 0;
 end;
